@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Data and model artefacts (large / regenerable)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Keep results/*.json and *.png so your measured numbers are visible on GitHub
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
