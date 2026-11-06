@@ -2,7 +2,7 @@
 
 Fine-tuned **DistilBERT** that classifies Roman Urdu (Urdu written in Latin script, often mixed with English) as **Negative, Neutral or Positive**. Compared against a **TF-IDF + SVM baseline**, with a custom **text normaliser** for Roman Urdu's inconsistent spelling, an **inference benchmark** (batching and FP16) and a **Gradio demo** for Hugging Face Spaces.
 
-**Live demo:** _add your Hugging Face Space link here_
+
 
 ## Highlights
 
